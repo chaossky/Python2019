@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+# 한글을 입력하기 위한 코드이다....
+
+from matplotlib import pyplot as plt
+import numpy as np
+
+x=np.arange(10)
+y=x*5
+
+plt.plot(x,y,'vb')
+plt.show()
+
+"""
+
+Linestyle	Description
+'-' or 'solid'	solid line
+'--' or 'dashed'	dashed line
+'-.' or 'dashdot'	dash-dotted line
+':' or 'dotted'	dotted line
+'None' or ' ' or ''	draw nothing
+"""
