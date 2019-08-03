@@ -1,5 +1,5 @@
 import turtle as t
-i=0
+i=10
 
 for x in range(100):
     t.forward(15+i)
