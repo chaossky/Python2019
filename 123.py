@@ -1,6 +1,7 @@
 import turtle as t
 i=0
+
 for x in range(100):
-    t.forward(10+i)
+    t.forward(15+i)
     t.right(30+i)
     i+=1
