@@ -1,3 +1,2 @@
-for i in range(0,100,2):
+for i in range(0,200,5):
     print(i,end=' . ')
-    
