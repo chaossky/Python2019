@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-#결과창에서 한글이 깨짐을 방지하는 코드
 import sys
 import io
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
@@ -18,7 +16,7 @@ with open('hello.txt','w')as file:
         my_dict['walk']='걷다'
         my_dict['run']='달리다'
         my_dict['see']='보다'
-        my_dict['sleep']='자다'
+        my_dict['slip']='미끄러지다'
         my_dict['apple']='사과'
 #print(my_dict.items())
     my_dict.values()
@@ -31,30 +29,3 @@ with open('hello.txt','w')as file:
         print(key)
     #print('\n')
         print(value)
-=======
-with open('hello.txt','w')as file:
-    for i in range(2,10):
-        for j in range(1,10):
-            file.write('{}X{}={} '.format(i,j,i*j))
-        file.write('\n')
-        #file.write('Hello, world! {0}\n'.format(i))
-my_dict={'eat':'먹다','love':'사랑하다'}
-my_dict['go']='가다'
-my_dict['sleep']='자다'
-my_dict['walk']='걷다'
-my_dict['run']='달리다'
-my_dict['see']='보다'
-my_dict['sleep']='자다'
-my_dict['apple']='사과'
-#print(my_dict.items())
-my_dict.values()
-
-for i in my_dict:
-    file.write(i)
-
-#print('\n---------------')
-for key,value in my_dict.items():
-    print(key)
-    #print('\n')
-    print(value)
->>>>>>> 36a4b702351445ed74bb50572010fc5b2edd58ba
