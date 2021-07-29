@@ -1,4 +1,4 @@
-#! Super Class Person을 지정
+# Super Class Person을 지정
 class Person:
     def __init__(self,firstName,lastName):
         self.firstName=firstName
